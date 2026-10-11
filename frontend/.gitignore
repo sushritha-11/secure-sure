@@ -1,0 +1,38 @@
+
+# Dependencies
+**/node_modules/
+
+# Environment files and secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs
+**/*.log
+**/logs/
+
+# Build output
+**/dist/
+**/build/
+**/coverage/
+
+# Local uploads and generated data
+**/uploads/
+**/storage/
+**/chroma-data/
+
+# Local databases
+**/*.sqlite
+**/*.sqlite3
+**/*.db
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+**/*.tmp
+**/*.bak
